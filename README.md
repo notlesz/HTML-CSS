@@ -1,2 +1,2 @@
 # Front-End
- Aprendizado Alura
+Formação Alura Front-End
