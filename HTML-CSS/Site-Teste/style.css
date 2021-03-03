@@ -143,6 +143,7 @@ td, th{
 	font-size: 2em;
 	margin-bottom: 1em;
 	clear: left;
+	color: rgba(0,0,0,0.3);
 }
 .principal{
 	width: 940px;
@@ -196,11 +197,12 @@ td, th{
 }
 .imagem-beneficios{
 	width: 60%;
-	transition: 600ms;
+	opacity: 0.3;
+	transition: 400ms;
 }
 
 .imagem-beneficios:hover{
-	opacity: 0.6;
+	opacity: 1;
 }
 .utensilios{
 	width: 120px;
