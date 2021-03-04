@@ -265,6 +265,9 @@ footer{
 		margin-left: 20px;
 		margin-right: 20px;	
 	}
+	.form-contato label{
+		margin-bottom: 8px;
+	}
 	fieldset{
 		margin: 20px 0;
 	}
