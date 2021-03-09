@@ -6,7 +6,7 @@ const sobrenome = "Souza"
 
 console.log(primeiroNome,sobrenome)
 // outros exempleos: console.log(nome+" "+sobrenome)
-console.log(`Meu nome é ${primeiroNome} ${sobrenome}`)
+console.log(`Meu nome é ${primeiroNome} ${sobrenome}`) //Interpolação de variáveis
 
 let contador = 0
 contador = contador + 1
