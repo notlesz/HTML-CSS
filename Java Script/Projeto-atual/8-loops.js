@@ -7,26 +7,31 @@ const listaDeDestinos = new Array(
 
 const idadeComprador = 18
 const estaAcompanhada = false
-let temPassagemComprada = false     
+let temPassagemComprada = false 
+const destino = "Curitiba"
 
-console.log("\n Destinos possvíeis: ")
+console.log("Destinos possvíeis: ")
 console.log(listaDeDestinos)
 
-if (idadeComprador >= 18||estaAcompanhada == true) {
-    console.log("Boa Viagem!")
-    listaDeDestinos.splice(2, 1) // Retirando item da lista
-    temPassagemComprada = true
-}
-else {
-    console.log("Comprador não é maior de idade e não posso vender")
-    temPassagemComprada = false
-}
+const podeComprar = idadeComprador >= 18||estaAcompanhada == true
+let contador = 0
+let destinoExiste = false
 
-console.log("Embarcando \n\n")
-if(idadeComprador >= 18 && temPassagemComprada){
-    console.log("Boa viagem!")
-}else{
-    console.log("Voce não pode embarcar")
-}
+//loop While
+while(contador < 3){
+    if(listaDeDestinos[contador] == destino){
+        destinoExiste = true
+        break
+     }
+    contador += 1
+ }
+console.log("Qual destino escolhido:", destino)
+console.log(`O destino ${destino} existe? ${destinoExiste}`)
 
-console.log(listaDeDestinos)
+//loop FOR
+//for(let cont = 0; cont < 3; cont++){
+//   if(listaDeDestinos[contador] == destino){
+//       destinoExiste = true
+//      break
+//     }
+//}
