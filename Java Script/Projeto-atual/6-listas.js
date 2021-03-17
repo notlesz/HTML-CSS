@@ -17,6 +17,6 @@ console.log(listaDeDestinos)
 // console.log(saoPaulo)
 // console.log(rioDeJaneiro)
 
-listaDeDestinos.splice(1,1)
+listaDeDestinos.splice(1,2)
 console.log(listaDeDestinos)
 console.log(listaDeDestinos[1], listaDeDestinos[0])
