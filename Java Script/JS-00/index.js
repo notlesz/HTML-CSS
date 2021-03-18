@@ -9,13 +9,16 @@ class ContaCorrente{
     sacar(valor){
         if(this._saldo >= valor){
             this._saldo -= valor
+            return valor
         }
+       
     }
 
     depositar(valor){
-        if(valor > 0){
-            this._saldo += valor
+        if(valor <= 0){
+           return
         }
+        this._saldo += valor
     }
 
 }
@@ -32,8 +35,10 @@ cliente2.cpf=12365478901
 const contaCorrenteElton = new ContaCorrente()
 contaCorrenteElton.agencia = 1101
 
-contaCorrenteElton.depositar(100)
-contaCorrenteElton.sacar(50)
+contaCorrenteElton.depositar(200)
+contaCorrenteElton.depositar(-100)
+const valorSacado = contaCorrenteElton.sacar(50)
+console.log(valorSacado)
 console.log(contaCorrenteElton)
 
 
