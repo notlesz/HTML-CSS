@@ -7,7 +7,7 @@ cliente1.cpf=11212391209
 
 
 const cliente2 = new Cliente()
-cliente2.nome="Karen"
+cliente2.nome="Souza"
 cliente2.cpf=12365478901
 
 const conta1 = new ContaCorrente()
