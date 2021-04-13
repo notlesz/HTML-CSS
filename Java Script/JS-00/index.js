@@ -15,5 +15,7 @@ const gerenteEstaLogado = SistemaAutenticacao.login(gerente,"123456")
 const diretorEstaLogado = SistemaAutenticacao.login(diretor, "123456789")
 
 const cliente = new Cliente("Elton", 112121212121, "1234567")
-const clienteEstaLogado = SistemaAutenticacao.login(cliente, "123456789")
+const clienteEstaLogado = SistemaAutenticacao.login(cliente, "1234567")
+
+
 console.log(gerenteEstaLogado, diretorEstaLogado, clienteEstaLogado)
