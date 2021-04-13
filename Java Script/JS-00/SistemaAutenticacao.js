@@ -1,5 +1,6 @@
 /*
 Ser autenticavel significa ter o metodo autenticar
+duck type
 */
 export class SistemaAutenticacao{
     static login(autenticavel, senha){
