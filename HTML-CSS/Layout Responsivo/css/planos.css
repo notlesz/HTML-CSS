@@ -104,3 +104,8 @@
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
 }
+@media screen and (width:768px) {
+    .cartao{
+        max-width: 400px;
+    }
+}
