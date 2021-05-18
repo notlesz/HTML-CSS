@@ -1,5 +1,6 @@
 const BotaoDeleta = () =>{
     const botaDeleta = document.createElement('button')
+    botaDeleta.classList.add('delete-button')
     botaDeleta.innerText = 'deletar'
 
     botaDeleta.addEventListener('click', deletarTarefa)
